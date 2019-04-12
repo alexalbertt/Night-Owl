@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1876DB1D7259786170D967 /* Pods_Night_Owl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8862108F9FCA9A9233B75A7F /* Pods_Night_Owl.framework */; };
+		FA6C7B3820F0688500155D24 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C7B3720F0688500155D24 /* Variables.swift */; };
+		FA6C7B3A20F0814300155D24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA6C7B3920F0814200155D24 /* GoogleService-Info.plist */; };
+		FA6C7B3D20F0903A00155D24 /* CustomMessagesCollectionViewCellIncoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C7B3B20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.swift */; };
+		FA6C7B3E20F0903A00155D24 /* CustomMessagesCollectionViewCellIncoming.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C7B3C20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.xib */; };
+		FA6C7B4120F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C7B3F20F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.swift */; };
+		FA6C7B4220F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C7B4020F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.xib */; };
+		FAA431E320EF2ACE0098A6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA431E220EF2ACE0098A6E3 /* AppDelegate.swift */; };
+		FAA431E520EF2ACE0098A6E3 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA431E420EF2ACE0098A6E3 /* InitialViewController.swift */; };
+		FAA431E820EF2ACE0098A6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA431E620EF2ACE0098A6E3 /* Main.storyboard */; };
+		FAA431EB20EF2ACE0098A6E3 /* Night_Owl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA431E920EF2ACE0098A6E3 /* Night_Owl.xcdatamodeld */; };
+		FAA431ED20EF2AD10098A6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA431EC20EF2AD10098A6E3 /* Assets.xcassets */; };
+		FAA431F020EF2AD10098A6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA431EE20EF2AD10098A6E3 /* LaunchScreen.storyboard */; };
+		FAA431F820EF2BE90098A6E3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA431F720EF2BE90098A6E3 /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8862108F9FCA9A9233B75A7F /* Pods_Night_Owl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Night_Owl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AA6C7C55206C89A00BB24A /* Pods-Night Owl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night Owl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Night Owl/Pods-Night Owl.release.xcconfig"; sourceTree = "<group>"; };
+		FA6C7B3720F0688500155D24 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		FA6C7B3920F0814200155D24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA6C7B3B20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessagesCollectionViewCellIncoming.swift; sourceTree = "<group>"; };
+		FA6C7B3C20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessagesCollectionViewCellIncoming.xib; sourceTree = "<group>"; };
+		FA6C7B3F20F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessagesCollectionViewCellOutgoing.swift; sourceTree = "<group>"; };
+		FA6C7B4020F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessagesCollectionViewCellOutgoing.xib; sourceTree = "<group>"; };
+		FAA431DF20EF2ACE0098A6E3 /* Night Owl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Owl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA431E220EF2ACE0098A6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA431E420EF2ACE0098A6E3 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		FAA431E720EF2ACE0098A6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA431EA20EF2ACE0098A6E3 /* Night_Owl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Night_Owl.xcdatamodel; sourceTree = "<group>"; };
+		FAA431EC20EF2AD10098A6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA431EF20EF2AD10098A6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA431F120EF2AD10098A6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA431F720EF2BE90098A6E3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FBC978378C0313295E23AEE6 /* Pods-Night Owl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Night Owl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Night Owl/Pods-Night Owl.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA431DC20EF2ACE0098A6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1876DB1D7259786170D967 /* Pods_Night_Owl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925C7C9EB2C6B7AFDCC28E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8862108F9FCA9A9233B75A7F /* Pods_Night_Owl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EB3B5AF250184653A9B0B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBC978378C0313295E23AEE6 /* Pods-Night Owl.debug.xcconfig */,
+				96AA6C7C55206C89A00BB24A /* Pods-Night Owl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA431D620EF2ACD0098A6E3 = {
+			isa = PBXGroup;
+			children = (
+				FAA431E120EF2ACE0098A6E3 /* Night Owl */,
+				FAA431E020EF2ACE0098A6E3 /* Products */,
+				B3EB3B5AF250184653A9B0B7 /* Pods */,
+				925C7C9EB2C6B7AFDCC28E8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA431E020EF2ACE0098A6E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA431DF20EF2ACE0098A6E3 /* Night Owl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA431E120EF2ACE0098A6E3 /* Night Owl */ = {
+			isa = PBXGroup;
+			children = (
+				FAA431E220EF2ACE0098A6E3 /* AppDelegate.swift */,
+				FAA431E420EF2ACE0098A6E3 /* InitialViewController.swift */,
+				FAA431F720EF2BE90098A6E3 /* ChatViewController.swift */,
+				FAA431E620EF2ACE0098A6E3 /* Main.storyboard */,
+				FAA431EC20EF2AD10098A6E3 /* Assets.xcassets */,
+				FAA431EE20EF2AD10098A6E3 /* LaunchScreen.storyboard */,
+				FAA431F120EF2AD10098A6E3 /* Info.plist */,
+				FAA431E920EF2ACE0098A6E3 /* Night_Owl.xcdatamodeld */,
+				FA6C7B3720F0688500155D24 /* Variables.swift */,
+				FA6C7B3920F0814200155D24 /* GoogleService-Info.plist */,
+				FA6C7B3B20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.swift */,
+				FA6C7B3C20F0903900155D24 /* CustomMessagesCollectionViewCellIncoming.xib */,
+				FA6C7B3F20F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.swift */,
+				FA6C7B4020F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.xib */,
+			);
+			path = "Night Owl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA431DE20EF2ACE0098A6E3 /* Night Owl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA431F420EF2AD10098A6E3 /* Build configuration list for PBXNativeTarget "Night Owl" */;
+			buildPhases = (
+				7B9EF4081EBCBE04D393429D /* [CP] Check Pods Manifest.lock */,
+				FAA431DB20EF2ACE0098A6E3 /* Sources */,
+				FAA431DC20EF2ACE0098A6E3 /* Frameworks */,
+				FAA431DD20EF2ACE0098A6E3 /* Resources */,
+				35EFC05651582F0DEFCF33F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Night Owl";
+			productName = "Night Owl";
+			productReference = FAA431DF20EF2ACE0098A6E3 /* Night Owl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA431D720EF2ACD0098A6E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alex Albert";
+				TargetAttributes = {
+					FAA431DE20EF2ACE0098A6E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FAA431DA20EF2ACD0098A6E3 /* Build configuration list for PBXProject "Night Owl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA431D620EF2ACD0098A6E3;
+			productRefGroup = FAA431E020EF2ACE0098A6E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA431DE20EF2ACE0098A6E3 /* Night Owl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA431DD20EF2ACE0098A6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA431F020EF2AD10098A6E3 /* LaunchScreen.storyboard in Resources */,
+				FA6C7B3E20F0903A00155D24 /* CustomMessagesCollectionViewCellIncoming.xib in Resources */,
+				FAA431ED20EF2AD10098A6E3 /* Assets.xcassets in Resources */,
+				FAA431E820EF2ACE0098A6E3 /* Main.storyboard in Resources */,
+				FA6C7B3A20F0814300155D24 /* GoogleService-Info.plist in Resources */,
+				FA6C7B4220F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35EFC05651582F0DEFCF33F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Night Owl/Pods-Night Owl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Night Owl/Pods-Night Owl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9EF4081EBCBE04D393429D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Night Owl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA431DB20EF2ACE0098A6E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA431E520EF2ACE0098A6E3 /* InitialViewController.swift in Sources */,
+				FA6C7B4120F090ED00155D24 /* CustomMessagesCollectionViewCellOutgoing.swift in Sources */,
+				FAA431E320EF2ACE0098A6E3 /* AppDelegate.swift in Sources */,
+				FAA431F820EF2BE90098A6E3 /* ChatViewController.swift in Sources */,
+				FAA431EB20EF2ACE0098A6E3 /* Night_Owl.xcdatamodeld in Sources */,
+				FA6C7B3820F0688500155D24 /* Variables.swift in Sources */,
+				FA6C7B3D20F0903A00155D24 /* CustomMessagesCollectionViewCellIncoming.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA431E620EF2ACE0098A6E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA431E720EF2ACE0098A6E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA431EE20EF2AD10098A6E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA431EF20EF2AD10098A6E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA431F220EF2AD10098A6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA431F320EF2AD10098A6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA431F520EF2AD10098A6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC978378C0313295E23AEE6 /* Pods-Night Owl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC9B62TEH3;
+				INFOPLIST_FILE = "Night Owl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexalbert.Night-Owl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAA431F620EF2AD10098A6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AA6C7C55206C89A00BB24A /* Pods-Night Owl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC9B62TEH3;
+				INFOPLIST_FILE = "Night Owl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexalbert.Night-Owl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA431DA20EF2ACD0098A6E3 /* Build configuration list for PBXProject "Night Owl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA431F220EF2AD10098A6E3 /* Debug */,
+				FAA431F320EF2AD10098A6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA431F420EF2AD10098A6E3 /* Build configuration list for PBXNativeTarget "Night Owl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA431F520EF2AD10098A6E3 /* Debug */,
+				FAA431F620EF2AD10098A6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA431E920EF2ACE0098A6E3 /* Night_Owl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA431EA20EF2ACE0098A6E3 /* Night_Owl.xcdatamodel */,
+			);
+			currentVersion = FAA431EA20EF2ACE0098A6E3 /* Night_Owl.xcdatamodel */;
+			path = Night_Owl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA431D720EF2ACD0098A6E3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Night_Owl {
+  umbrella header "Pods-Night Owl-umbrella.h"
+
+  export *
+  module * { export * }
+}
